@@ -39,9 +39,18 @@ header {
         color: inherit;
     }
 
+/*Delete this and use text as a plan B if banner doesn't work*/
 h1 {
     font-family: 'nunito-sans', sans-serif;
+    letter-spacing: 3px;
 }
+
+/*Nav Links Styles*/
+#nav-links {
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
 
 /*MAIN CONTENT*/ 
 main {
