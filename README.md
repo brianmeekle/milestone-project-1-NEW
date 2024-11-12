@@ -73,7 +73,15 @@ As a frequent user...
 
 * Color Scheme
 
-I have chosen to use a color scheme of red, black and white as these are the colors primarily used in any artwork created for Contraband Circus.
+I have chosen to use a hex colours below as these are the colors primarily used in any artwork created for Contraband Circus.
+
+Very Dark Red #3d0103
+Dark Red #8f020b
+Red #ed0216
+Black #000000
+White #fbfbfb
+Grey #9f9999
+
 
 * Typography
 
