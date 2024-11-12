@@ -21,8 +21,23 @@ body {
 
 /*HEADER*/
 header {
+    width: 100%;
     background-color: #6f010a;
+    /*This padding keeps the text from being right up against side of the screen*/
+    padding: 0 1rem;
+    /*Enables navbar to scroll*/
+    position: fixed;
+    z-index: 99;
+    /*Shadow for nav bar*/
+    box-shadow: 0 2px 2px Grey #9f9999;
+
 }
+
+    /*Remove hyperlink underline & inhert text color of body (parent) element*/
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
 
 h1 {
     font-family: 'nunito-sans', sans-serif;
