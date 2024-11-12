@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #000000;
-    font-family: 'nunito-sans', sans-serif
+    font-family: 'nunito-sans', sans-serif;
 }
 
 
@@ -24,7 +24,11 @@ header {
     background-color: #6f010a;
 }
 
-/*MAIN CONTENT*/
+h1 {
+    font-family: 'nunito-sans', sans-serif;
+}
+
+/*MAIN CONTENT*/ 
 main {
     background-color: #8f020b;
     /*this flex setting fills excess space, pushes footer to bottom*/
