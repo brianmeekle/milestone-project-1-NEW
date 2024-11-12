@@ -86,12 +86,11 @@ I have been authorised to use any previous art created used by Contraband Circus
 <a id="wireframes"></a>
 ### Wireframes
 
-<a href="https://github.com/brianmeekle/Milestone-Project-1/blob/main/
-DESKTOP%20WireFrames.pdf">Desktop device wireframes.</a>
+<a href="https://github.com/brianmeekle/milestone-project-1-NEW/blob/main/DESKTOP%20WireFrames.pdf>Desktop device wireframes.</a>
 
-<a href="https://github.com/brianmeekle/Milestone-Project-1/blob/main/MOBILE%20WireFrames.pdf">Mobile device wireframes.</a>
+<a href="https://github.com/brianmeekle/milestone-project-1-NEW/blob/main/MOBILE%20WireFrames.pdf">Mobile device wireframes.</a>
 
-<a href="https://github.com/brianmeekle/Milestone-Project-1/blob/main/TABLET%20WireFrames.pdf">Tablet device wireframes.</a>
+<a href="https://github.com/brianmeekle/milestone-project-1-NEW/blob/main/TABLET%20WireFrames.pdf">Tablet device wireframes.</a>
 
 <a id="features"></a>
 ### Features
