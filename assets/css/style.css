@@ -5,6 +5,16 @@ margin: 0;
 box-sizing: border-box;
 }
 
+/*Generic Page Styling*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+
+
 /*HEADER*/
 header {
     background-color: #6f010a;
@@ -13,6 +23,10 @@ header {
 /*MAIN CONTENT*/
 main {
     background-color: #8f020b;
+    /*this flex setting fills excess space, pushes footer to bottom*/
+    flex: 1 0 auto; 
+
+
 }
 
 /*FOOTER*/
