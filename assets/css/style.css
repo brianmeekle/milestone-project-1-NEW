@@ -94,6 +94,8 @@ main {
     background-color: #8f020b;
     /*this flex setting fills excess space, pushes footer to bottom*/
     flex: 1 0 auto; 
+    /*pushes content down from behind header*/
+    margin-top: 160px;
 
 
 }
