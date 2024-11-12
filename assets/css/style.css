@@ -1,2 +1,22 @@
+/*Override of the browser's default styles (Wildcard Selector)*/
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
 
+/*HEADER*/
+header {
+    background-color: #6f010a;
+}
+
+/*MAIN CONTENT*/
+main {
+    background-color: #8f020b;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #d30313;
+}
 

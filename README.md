@@ -75,9 +75,9 @@ As a frequent user...
 
 I have chosen to use a hex colours below as these are the colors primarily used in any artwork created for Contraband Circus.
 
-Very Dark Red #3d0103
+Very Dark Red #6f010a
 Dark Red #8f020b
-Red #ed0216
+Red #d30313
 Black #000000
 White #fbfbfb
 Grey #9f9999
