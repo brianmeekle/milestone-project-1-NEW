@@ -111,10 +111,6 @@ main {
     #nav-links a:hover {
         border-bottom: 3px solid #9f9999;
     }
-
-    #banner a:hover {
-        border: 3px solid #9f9999;
-    }
 }
 
 /*Media query - tablet*/
