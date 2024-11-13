@@ -106,6 +106,7 @@ footer {
     #nav-links a:hover {
         border-bottom: 3px solid #9f9999;
     }
+
     #banner a:hover {
         border: 3px solid #9f9999;
     }
@@ -114,22 +115,25 @@ footer {
 /*Media query - tablet*/
 @media screen and (min-width: 768px) {
     nav {
-        display:block;
+        display: block;
         /*puts nav links back inside header*/
-        position:relative;
+        position: relative;
         padding-right: 1.5rem;
     }
+
     /*These 2 rules set the links run horizontally*/
     #nav-links {
         display: flex;
-    } 
-    #nav-links > li {
+    }
+
+    #nav-links>li {
         padding-left: 2.5rem;
-    } 
+    }
+
     .dropdown-menu-label {
-        display: none;   
+        display: none;
     }
 
 
-   
+
 }
