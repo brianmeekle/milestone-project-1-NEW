@@ -3,9 +3,9 @@
 
 /*Override of the browser's default styles (Wildcard Selector)*/
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /*Generic Page Styling*/
@@ -32,20 +32,17 @@ header {
     box-shadow: 0 2px 2px #000000;
     display: flex;
     align-items: baseline;
-    
+    /*Pushes checkbox to the right of the page*/
+    align-items: baseline;
+    justify-content: space-between;
+
 
 }
 
-    /*Remove hyperlink underline & inhert text color of body (parent) element*/
-    header a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-/*Delete this and use text as a plan B if banner doesn't work*/
-h1 {
-    font-family: 'nunito-sans', sans-serif;
-    letter-spacing: 3px;
+/*Remove hyperlink underline & inhert text color of body (parent) element*/
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /*Nav Links Styles*/
@@ -56,6 +53,7 @@ h1 {
 }
 
 /*Nav bar dropdown menu*/
+
 nav {
     /*seperates nav links from banner section of the header*/
     position: absolute;
@@ -63,37 +61,38 @@ nav {
     width: 100%;
     padding: 0 1rem;
     left: 0;
-    box-shadow: 0 2px 2px #000000;
     /*This keeps the links hidden until user clicks icon to show links*/
-    display: none; 
-    /*Ensures the drop down menu will appear below the banner*/ 
-    top: 100%; 
+    display: none;
+    /*Ensures the drop down menu will appear below the banner*/
+    top: 100%;
 }
 
 /*Dropdown Menu*/
 
-    /*Show or hide menu*/
-    #dropdown-menu:checked~nav {
-    display: block
-    }
+/*Show or hide menu*/
+#dropdown-menu:checked~nav {
+    display: block;
+}
 
-    /*Checkbox size*/
-    .dropdown-menu-label {
-        font-size: 2.5rem;
-    }
+/*Checkbox size*/
+.dropdown-menu-label {
+    font-size: 2.5rem;
+}
 
-    /*Hide checkbox*/
-    #dropdown-menu {
-        display: none;
-    }
-    
+/*Hide checkbox*/
+#dropdown-menu {
+    display: none;
+}
 
 
-/*MAIN CONTENT*/ 
+
+
+
+/*MAIN CONTENT*/
 main {
     background-color: #8f020b;
     /*this flex setting fills excess space, pushes footer to bottom*/
-    flex: 1 0 auto; 
+    flex: 1 0 auto;
     /*pushes content down from behind header*/
     margin-top: 160px;
 
@@ -104,4 +103,3 @@ main {
 footer {
     background-color: #d30313;
 }
-
