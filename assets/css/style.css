@@ -97,8 +97,17 @@ main {
 }
 
 /*FOOTER*/
-footer {
+#socials {
     background-color: #d30313;
+    display: flex;
+    padding: 10 0rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    
+    
+    
+
 }
 
 /*Media query - desktop*/
