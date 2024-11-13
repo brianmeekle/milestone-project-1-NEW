@@ -95,11 +95,26 @@ main {
     flex: 1 0 auto;
     /*pushes content down from behind header*/
     margin-top: 160px;
-
-
 }
 
 /*FOOTER*/
 footer {
     background-color: #d30313;
+}
+
+/*Media query - tablet*/
+@media screen and (min-width: 768px) {
+    nav {
+        /*puts nav links back inside header*/
+        position:relative;
+        
+        padding-right: 1.5rem;
+    }
+    /*These 2 rules set the links run horizontally*/
+    #nav-links {
+        display: flex;
+    } 
+    #nav-links > li {
+        padding-left: 2.5rem;
+    } 
 }
