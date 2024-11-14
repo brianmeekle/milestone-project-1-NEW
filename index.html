@@ -31,7 +31,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 20%;
+            width: 50%;
         }
     </style>
 
@@ -42,18 +42,21 @@
     <header>
 
         <!--Banner-->
-        <div>
+        <div class="container">
+        <span class="banner">
             <a href="index.html">
                 <h1 id="banner">
                     <img src="assets/images/BANNER.png" alt="Contraband Circus Banner" width="308" height="150">
                 </h1>
             </a>
-        </div>
+        </span>
 
         <!--Nav Bar Dropdown Menu-->
-        <div>
+        <span class="navbar">
             <input type="checkbox" id="dropdown-menu">
-            <label for="dropdown-menu" class="dropdown-menu-label"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></label>
+            <label for="dropdown-menu" class="dropdown-menu-label">
+                <i class="fa-solid fa-ellipsis"></i>
+            </label>
             <!--Nav Bar Links-->
             <nav>
                 <ul id="nav-links">
@@ -64,8 +67,9 @@
                 </ul>
             </nav>
 
+        </span>
         </div>
-        </div>
+        
 
 
     </header>
@@ -73,7 +77,9 @@
 
     <!--MAIN CONTENT-->
     <main>
-        <div class="center">
+        <div id="main-content-text">
+            <br>
+            <br>
             <br>
             <p>Contraband Circus ...</p>
             <br>

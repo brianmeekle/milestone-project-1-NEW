@@ -12,9 +12,9 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*Stacks items vertically*/
     color: #000000;
-    font-family: 'nunito-sans', sans-serif;
+    font-family: 'nunito-sans', sans-serif;   
 }
 
 
@@ -35,9 +35,17 @@ header {
     /*Pushes checkbox to the right of the page*/
     align-items: baseline;
     justify-content: space-between;
-
-
 }
+
+/*Centers & aligns banner*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    width: 100%;
+    }
 
 /*Remove hyperlink underline & inhert text color of body (parent) element*/
 header a {
@@ -47,19 +55,18 @@ header a {
 
 /*Nav Links Styles*/
 #nav-links {
-    letter-spacing: 3px;
+    letter-spacing: 1.25px;
     list-style-type: none;
     margin-bottom: 0.5em;
+    width: 50%;
 }
 
 /*Nav bar dropdown menu*/
-
 nav {
     /*seperates nav links from banner section of the header*/
     position: absolute;
     background-color: #6f010a;
-    width: 100%;
-    padding: 0 1rem;
+    width: 100;
     left: 0;
     /*This keeps the links hidden until user clicks icon to show links*/
     display: none;
@@ -94,6 +101,10 @@ main {
     flex: 1 0 auto;
     /*pushes content down from behind header*/
     margin-top: 160px;
+}
+
+#main-content-text {
+    padding: 0 1rem;
 }
 
 /*FOOTER*/
