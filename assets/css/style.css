@@ -12,12 +12,11 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column; /*Stacks items vertically*/
+    flex-direction: column;
+    /*Stacks items vertically*/
     color: #000000;
-    font-family: 'nunito-sans', sans-serif;   
+    font-family: 'nunito-sans', sans-serif;
 }
-
-
 
 /*HEADER*/
 header {
@@ -35,17 +34,26 @@ header {
     /*Pushes checkbox to the right of the page*/
     align-items: baseline;
     justify-content: space-between;
+    
 }
 
 /*Centers & aligns banner*/
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 100%;
-    }
+    
+}
+
+.banner {
+    width: 100%;
+    max-width: 600px;
+    padding: 0;
+    margin: 0;
+}
 
 /*Remove hyperlink underline & inhert text color of body (parent) element*/
 header a {
@@ -59,6 +67,7 @@ header a {
     list-style-type: none;
     margin-bottom: 0.5em;
     width: 50%;
+    color:#9f9999;
 }
 
 /*Nav bar dropdown menu*/
@@ -92,8 +101,6 @@ nav {
 }
 
 
-
-
 /*MAIN CONTENT*/
 main {
     background-color: #8f020b;
@@ -115,6 +122,11 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
     text-align: center;
+}
+
+#socials i {
+    color:#9f9999;
+    font-size: 70%;
 }
 
 /*Media query - desktop*/
