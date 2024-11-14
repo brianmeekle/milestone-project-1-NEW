@@ -112,6 +112,11 @@ main {
 
 #main-content-text {
     padding: 0 1rem;
+    display: inline-block;
+}
+
+#video {
+    display: inline-block;
 }
 
 /*FOOTER*/
