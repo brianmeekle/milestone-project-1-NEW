@@ -127,6 +127,10 @@ main {
     
 }
 
+#table {
+    padding: 0 0.25rem;
+}
+
 /*FOOTER*/
 #socials {
     background-color: #d30313;
