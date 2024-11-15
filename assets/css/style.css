@@ -113,10 +113,18 @@ main {
 #main-content-text {
     padding: 0 1rem;
     display: inline-block;
+    /*Pushes text to top of div*/
+    vertical-align: top;
+}
+
+#index-text {
+    
 }
 
 #video {
     display: inline-block;
+    
+    
 }
 
 /*FOOTER*/
