@@ -129,6 +129,11 @@ main {
 
 #table {
     padding: 0 0.25rem;
+    
+}
+
+td > img:hover {
+    box-shadow: 10px
 }
 
 /*FOOTER*/
@@ -149,9 +154,7 @@ main {
 /*Media query - desktop*/
 @media screen and (min-width: 1200px) {
     #nav-links a:hover {
-        border-bottom: 3px solid #9f9999;
-
-       
+        border-bottom: 3px solid #9f9999; 
     }
     
 }
