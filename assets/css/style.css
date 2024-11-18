@@ -150,7 +150,10 @@ main {
 @media screen and (min-width: 1200px) {
     #nav-links a:hover {
         border-bottom: 3px solid #9f9999;
+
+       
     }
+    
 }
 
 /*Media query - tablet*/
@@ -160,6 +163,7 @@ main {
         /*puts nav links back inside header*/
         position: relative;
         padding-right: 1.5rem;
+    
     }
 
     /*These 2 rules set the links run horizontally*/
@@ -174,6 +178,8 @@ main {
     .dropdown-menu-label {
         display: none;
     }
+
+    
 
 
 
