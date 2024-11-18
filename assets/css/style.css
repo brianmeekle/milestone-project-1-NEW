@@ -102,6 +102,8 @@ nav {
 
 
 /*MAIN CONTENT*/
+
+
 main {
     background-color: #8f020b;
     /*this flex setting fills excess space, pushes footer to bottom*/
@@ -112,24 +114,28 @@ main {
 
 #main-content-text {
     padding: 0 1rem;
-    display: inline-block;
+    
     /*Pushes text to top of div*/
     vertical-align: top;
+    display: flex;
 }
 
-#index-text {
-    
-}
 
 #video {
     display: inline-block;
-    
-    
+    padding: 0 17.58rem;     
 }
 
+.container2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+/*Photo Gallery Table*/
 #table {
-    padding: 0 0.25rem;
-    
+    padding: 0 0.25rem; 
 }
 
 /*Hand Hover Icon activated for images & a box shadow appears*/
