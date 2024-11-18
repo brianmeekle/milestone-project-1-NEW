@@ -132,8 +132,10 @@ main {
     
 }
 
+/*Hand Hover Icon activated for images & a box shadow appears*/
 td > img:hover {
-    box-shadow: 10px
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #9f9999;
 }
 
 /*FOOTER*/
