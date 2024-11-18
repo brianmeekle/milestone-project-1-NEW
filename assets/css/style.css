@@ -122,14 +122,14 @@ main {
 
 
 #video {
-    display: inline-block;
-    padding: 0 17.58rem;     
+    display: flex;
+    padding: 0 17.58rem;  
+    
 }
 
 .container2 {
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
 
