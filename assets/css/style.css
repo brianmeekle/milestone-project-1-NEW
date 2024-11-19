@@ -116,6 +116,7 @@ main {
 #main-content-text {
     padding: 0 1rem;
     
+    
     /*Pushes text to top of div*/
     vertical-align: top;
     display: flex;
@@ -124,17 +125,28 @@ main {
 
 #video {
     display: flex;
-    padding: 0 17.58rem; 
+    padding: 0 5rem; 
+    
     
 }
 
+/*index page content set horizontally with spacing*/
 .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    width: 100%; 
+    
+    
+}
+
+/*event flyers set horizontally with spacing*/
+.container3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
     width: 100%;
     padding: 0 20rem;
-
 }
 
 div > img:hover {
