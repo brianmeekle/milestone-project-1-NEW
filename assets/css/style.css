@@ -18,6 +18,7 @@ body {
     font-family: 'nunito-sans', sans-serif;
 }
 
+
 /*HEADER*/
 header {
     width: 100%;
@@ -37,7 +38,7 @@ header {
     
 }
 
-/*Centers & aligns banner*/
+/*Center & align banner*/
 .container {
     display: flex;
     flex-direction: column;
@@ -130,8 +131,10 @@ main {
 .container2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+    width: 100%;
+    padding: 0 20rem;
+
 }
 
 div > img:hover {
@@ -159,6 +162,7 @@ td > img:hover {
     justify-content: space-evenly;
     list-style-type: none;
     text-align: center;
+    font-size:x-large;
 }
 
 #socials i {
