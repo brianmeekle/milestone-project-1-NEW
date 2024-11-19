@@ -200,6 +200,12 @@ td > img:hover {
     
     }
 
+/*Media query - mobile*/
+@media screen and (min-width: 576px) {
+
+    
+}
+
     /*These 2 rules set the links run horizontally*/
     #nav-links {
         display: flex;
