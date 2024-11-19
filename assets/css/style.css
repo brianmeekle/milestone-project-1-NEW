@@ -131,6 +131,12 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+}
+
+div > img:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #9f9999;
 }
 
 
