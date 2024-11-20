@@ -203,11 +203,8 @@ td > img:hover {
 /*Media query - mobile*/
 @media screen and (min-width: 576px) {
 
-    div {
-        display: flex;
-        flex-direction: column;
-    }
-    
+
+} 
 }
 
     /*These 2 rules set the links run horizontally*/
