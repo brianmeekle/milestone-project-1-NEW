@@ -203,6 +203,10 @@ td > img:hover {
 /*Media query - mobile*/
 @media screen and (min-width: 576px) {
 
+    div {
+        display: flex;
+        flex-direction: column;
+    }
     
 }
 
